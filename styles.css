@@ -1,0 +1,33 @@
+div { 
+    color:teal;
+    background-color: rgb(248, 200, 226);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width:40%;
+}
+
+.list {
+    color:teal;
+    background-color: rgb(248, 200, 226);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    -webkit-text-stroke: 2px teal
+}
