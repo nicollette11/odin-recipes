@@ -1,0 +1,38 @@
+* {
+    background-color:rgb(248, 200, 226);
+    color:teal;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    border:20px double white
+}
+
+img {
+    float: top;
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+}
+
+a.button {
+    color: white;
+    background-color: teal;
+    padding: 8px;
+    border: 2px solid black;
+    display: block;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    -webkit-text-stroke: 2px teal
+}

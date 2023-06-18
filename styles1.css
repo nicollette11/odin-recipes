@@ -1,0 +1,11 @@
+* {
+    background-color:rgb(248, 200, 226);
+    color:teal;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    border:20px double white
+}

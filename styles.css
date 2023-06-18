@@ -4,7 +4,7 @@ div {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    text-align: center;
+    display: flex;
 }
 
 .center {
@@ -24,10 +24,44 @@ div {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     color:white;
     -webkit-text-stroke: 2px teal
+}
+
+a.button {
+    color: white;
+    background-color: teal;
+    padding: 8px;
+    border: 2px solid black;
+    display: block;
+    position: fixed;
+    bottom: 300px;
+    right: 100px;
+}
+
+img {
+    float: right;
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+}
+
+.recipe-card {
+    width: 400px;
+    text-align: left;
+    background-color: white;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba (0, 0, 0, .5);
+}
+
+.recipe-content {
+    display: block;
+    font-size:20px;
+    text-align: left;
+    margin-left: 25px;
 }
